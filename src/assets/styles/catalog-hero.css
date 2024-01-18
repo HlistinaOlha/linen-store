@@ -1,0 +1,94 @@
+ .collection_img__overlay {
+    overflow: hidden;
+    position: relative;
+
+
+ }
+
+ .collection_img__overlay .img_center {
+    background-position: 0 50%;
+}
+
+ .collection_img__overlay .layer_1 {
+     background: url("../images/linen.jpg") no-repeat center/contain;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+ .collection_img__overlay .img_wrapper__medium {
+    padding: 19.53125% 0 0;
+}
+
+ .collection_img__overlay .layer_2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-flex-direction: column;
+}
+
+ .collection_img__overlay .layer_2 h1 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    color: #263238;
+}
+
+ .collection_img__overlay .layer_2 .container {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.collection_desc {
+    margin: 30px 0 0;
+    color: #858586;
+    letter-spacing: 0;
+}
+
+/*media-styles*/
+@media (max-width: 1199px) {
+     .collection_img__overlay .layer_1 {
+        background-position: 50% 0;
+    }
+
+    .collection_img__overlay .img_wrapper__medium {
+        padding: 22.53125% 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+     .collection_desc {
+        margin: 15px 0 0;
+    }
+}
+
+@media (max-width: 767px) {
+     .collection_img__overlay .img_wrapper__medium {
+        padding: 25.53125% 0 0;
+    }
+}
+
+@media (max-width: 639px) {
+     .collection_img__overlay .img_wrapper__medium {
+        padding: 28.53125% 0 0;
+    }
+
+     .layer_2 h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 479px) {
+     .collection_img__overlay .img_wrapper__medium {
+        padding: 34.53125% 0 0;
+    }
+}

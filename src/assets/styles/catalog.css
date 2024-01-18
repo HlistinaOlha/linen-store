@@ -1,0 +1,182 @@
+.collection_listing__main .col-xs-3:nth-of-type(4n+1) {
+    clear: left;
+}
+
+.grid__item {
+    flex-grow: 0;
+}
+
+.collection_listing__main .collection_item {
+    margin: 30px 0 0;
+    text-align: center;
+}
+
+.collection_listing__main .collection_item .collection_img {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate(0);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.collection_listing__main .collection_item .collection_img:hover {
+    opacity: .7;
+}
+
+.collection_listing__main .collection_item .layer_1 {
+    margin: 0 0 20px;
+}
+
+.collection_listing__main .collection_item .img_placeholder__wrap {
+    background-color: #0000000a;
+}
+
+.collection_listing__main .collection_item .collection_title {
+    display: block;
+    font-size: 18px;
+    color: #263238;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate(0);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.collection_listing__main .collection_item .collection_title:hover {
+    color: #bfa588;
+}
+
+.collection_listing__main .collection_item .collection_title, .collection_listing__main .collection_item .collection_products {
+    letter-spacing: 0;
+}
+
+.collection_listing__main .collection_item .collection_products {
+    display: block;
+    padding: 10px 0 0;
+    color: #858586;
+}
+
+.grid__item {
+    max-width: 50%;
+}
+
+.col-xs-3 {
+    width: 25%;
+}
+
+.button_filters {
+    margin: 20px 0 0;
+}
+
+.button_filters li {
+    display: inline-block;
+    margin: 10px 14px 0 0;
+}
+
+.button_filters a {
+    display: block;
+    padding: 7px 10px;
+    background: #bfa588;
+    color: #fff;
+    text-transform: capitalize;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.button_filters a:hover, .button_filters a.active , .button_filters a:focus{
+    background: #263238;
+    color: #fff;
+}
+
+
+/*media-styles*/
+@media (max-width: 991px) {
+    .collection_listing__main .collection_item .collection_title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .collection_listing__main .collection_item .layer_1 {
+        margin: 0 0 10px;
+    }
+
+    .collection_listing__main .collection_item .collection_title {
+        font-size: 14px;
+    }
+
+    .collection_listing__main .collection_item .collection_products {
+        padding: 5px 0 0;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .grid--2-col-tablet-down .grid__item {
+        width: 25%;
+    }
+}
+
+@media (max-width: 639px) {
+    .collection_listing__main .col-xs-3 {
+        width: 50%;
+    }
+
+    .collection_listing__main .item_2_1 {
+        clear: left;
+    }
+
+    .grid--1-col-tablet-down .grid__item{
+        width: 100%;
+    }
+}
+
+@media (max-width: 479px) {
+    .collection_listing__main .collection_item {
+        margin: 15px 0 0;
+    }
+
+    .collection_listing__main .col-xs-3:nth-of-type(2n+1) {
+        padding: 0 8px 0 15px;
+    }
+
+    .collection_listing__main>div {
+        padding: 0 15px 0 7px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px){
+    .grid--4-col-desktop .grid__item {
+        width: 25%;
+        max-width: 25%;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .grid--4-col-desktop .grid__item {
+        width: 25%;
+        max-width: 25%;
+    }
+}

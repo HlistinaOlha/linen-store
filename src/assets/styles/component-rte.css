@@ -1,0 +1,67 @@
+.rte h1, .rte h2, .rte h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.rte h2 {
+    font-size: 29px;
+}
+
+.rte h3 {
+    font-size: 26px;
+}
+
+.rte p {
+    margin: 15px 0 0;
+}
+
+.rte ol {
+    margin: 15px 0 0;
+    padding: 0 0 0 30px;
+    list-style-type: decimal;
+    letter-spacing: 0;
+}
+
+.product_description.rte ul, .article_content.rte ul {
+    margin: 15px 0 0;
+    padding: 0 0 0 30px;
+    list-style-type: disc;
+    letter-spacing: 0;
+}
+
+.product_description.rte a, .article_content.rte a {
+    text-decoration: underline;
+    text-underline-offset: 0;
+    color: #bfa588;
+}
+
+.product_description.rte a:hover,  .article_content.rte a:hover {
+    text-decoration: none;
+    color: #263238;
+}
+
+.rte .rte_youtube_wrapper {
+    margin-top: 15px;
+    overflow: hidden;
+    padding: 56.25% 0 0;
+    position: relative;
+}
+
+.article_item .rte_youtube_wrapper+p{
+    margin: 0;
+}
+
+.rte .rte_youtube_wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.template_contact .rte {
+    margin: 15px 0 0;
+    color: #858586;
+    letter-spacing: 0;
+}

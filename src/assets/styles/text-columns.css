@@ -1,0 +1,144 @@
+.section_text-columns {
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.section_text-columns .flexbox {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rich-text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.section_text-columns .text_columns {
+  position: relative;
+}
+
+.text_columns {
+  margin: 30px 0 0;
+}
+
+.text_columns .text_center {
+  text-align: center;
+}
+
+.text_columns p {
+  margin: 0 0 2px;
+  font-family: Arimo;
+  font-style: italic;
+  font-size: 18px;
+  color: #858586;
+  letter-spacing: .02em;
+}
+
+.text_columns h2 {
+  margin: 2px 0 0;
+  letter-spacing: .04em;
+}
+
+.title2 {
+  font-size: 30px;
+}
+
+.text_columns .link {
+  margin: 6px 0 0;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.section_text-columns .text_columns:not(:first-of-type):before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid #e1e1e1;
+}
+
+/*media-styles*/
+@media (max-width: 991px) {
+  .section_text-columns{
+    margin-bottom: 0;
+  }
+
+  .section_text-columns .text_columns {
+    margin: 24px 0 0;
+  }
+
+  .section_text-columns, .section_featured-products {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .section_text-columns .text_columns {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 33.333%;
+    -moz-box-flex: 1;
+    -moz-flex: 1 1 33.333%;
+    -ms-flex: 1 1 33.333%;
+    flex: 1 1 33.333%;
+  }
+
+  .section_text-columns .title2 {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 639px) {
+  .section_text-columns .title2 {
+    font-size: 4vw;
+  }
+
+  .section_text-columns p {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 479px) {
+  .section_text-columns .text_columns + .text_columns {
+    padding-top: 15px;
+    border-top: 1px solid #e1e1e1;
+  }
+
+  .section_text-columns .text_columns {
+    margin-top: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+    -moz-box-flex: 1;
+    -moz-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+  }
+
+  .section_text-columns .title2 {
+    font-size: 5vw;
+  }
+
+  .text_columns__item .item_info {
+    margin: 0;
+    width: 100%;
+    padding: 15px 0 0;
+  }
+
+  .section_text-columns p {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .col-sm-4 {
+    float: left;
+    width: 33.33333333%;
+  }
+}

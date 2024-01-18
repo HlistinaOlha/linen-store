@@ -1,0 +1,52 @@
+.breadcrumbs {
+    background: #bfa588;
+}
+
+.breadcrumbs .container {
+    padding: 0 0 15px;
+}
+
+.breadcrumbs ul {
+    font-size: 0;
+    line-height: 0;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    padding: 15px 10px 0 0;
+    color: #fff;
+}
+
+.breadcrumbs li~li:before {
+    content: "\f105";
+    margin: 0 10px 0 0;
+    font: 14px/1em FontAwesome;
+    color: #ffffff80;
+}
+
+.breadcrumbs a, .breadcrumbs span {
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 0;
+}
+
+.breadcrumbs span {
+    text-transform: capitalize;
+}
+
+.breadcrumbs a {
+    color: #ffffff80;
+    text-transform: capitalize;
+}
+
+.breadcrumbs a:hover, .breadcrumbs a:focus {
+    color: white;
+}
+
+/*media-styles*/
+
+@media (max-width: 767px) {
+    .breadcrumbs {
+        padding: 0 15px;
+    }
+}

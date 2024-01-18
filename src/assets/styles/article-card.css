@@ -1,0 +1,118 @@
+.col-xs-4 {
+    width: 33.33333333%;
+}
+
+.section_blog-articles .article_item {
+    margin: 29px 0 0;
+}
+
+.section_blog-articles .flexible_block__normal .layer_1 {
+    margin: 0 0 25px;
+}
+
+.section_blog-articles .flexible_block .img_placeholder__small {
+    padding: 38.87096774193548% 0 0;
+}
+
+.section_blog-articles .article_title {
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.section_blog-articles .article_title a {
+    color: #263238;
+}
+
+.section_blog-articles .article_title a:hover {
+    color: #bfa588;
+}
+
+.section_blog-articles .article_content {
+    margin: 7px 0 0;
+    font-family: Merriweather, serif;
+    line-height: 1.71;
+    color: #5d5d5e;
+    letter-spacing: 0;
+}
+
+.section_blog-articles .article_btn {
+    margin: 16px 0 0;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+
+.section_blog-articles .blocks_container {
+    padding: 0 30px;
+}
+
+/*media-styles*/
+
+
+@media (max-width: 991px) {
+    .section_homepage .section_heading {
+        font-size: 26px;
+        margin-top: -4px;
+    }
+
+    .section_blog-articles .article_item {
+        margin: 25px 0 0;
+    }
+
+    .section_blog-articles .article_title {
+        font-size: 16px;
+    }
+
+    .section_blog-articles .flexible_block__overlay .article_content, .section_blog-articles .article_btn {
+        display: none;
+    }
+
+    .section_template__blog .blog_listing__grid .article_title {
+        font-size: 18px;
+    }
+
+    .section_blog-articles .blocks_container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section_blog-articles .article_title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 639px) {
+    .section_blog-articles .article_item {
+        margin: 15px 0 0;
+    }
+
+    .section_blog-articles .flexible_block__normal .layer_1 {
+        width: 180px;
+        float: left;
+        margin: 0 15px 0 0;
+    }
+
+    .section_blog-articles .article_title {
+        font-size: 18px;
+    }
+
+    .section_blog-articles .col-xs-4 {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (max-width: 479px) {
+    .section_blog-articles .article_item {
+        margin: 25px 0 0;
+    }
+
+    .section_blog-articles .flexible_block__normal .layer_1 {
+        width: 140px;
+        margin-bottom: 10px;
+    }
+
+    .section_blog-articles .article_title {
+        font-size: 16px;
+    }
+}
